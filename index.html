@@ -1,33 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
-</head>
-<body>
-  <header>
-    <h1>Student name</h1>
-    <div class="nav">
-        <ul>
+  </head>
+  <body>
+    <div class="push">
+      <header class="main-header">
+        <div class="container">
+          <h1 class="name">Student name</h1>
+          <ul class="main-nav">
             <li>Home</li>
             <li>Portfoilio</li>
             <li>Contact</li>
-        </ul>
-    </div>
-    <div class="profile">
-        <img src="" alt="">
-        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
-    </div>
-  </header>
-  <main>
-<div class="portfolio"></div>
-  </main>
-    <footer>
+          </ul>
+        </div>
+      </header>
 
+      <div class="container">
+        <section class="profile">
+          <div class="profile-info">
+            <img
+              src="images/responsive-layout-profile.png"
+              alt="profile picture"
+            />
+            <p>
+              Hi! I'm a front-end developer who loves responsive design and css.
+              I recently finished a degree in front-end web development at
+              Treehouse and am excited to put all my skills to use!
+            </p>
+          </div>
+        </section>
 
+        <section class="portfolio">
+          <h2>Portfolio</h2>
+          <div>
+            <img
+              src="images/portfolio-1.png"
+              alt="example website layout image"
+            />
+            <h3>Marketing Page</h3>
+            <p>
+              This project shows the front page of a marketing website meant for
+              a specific business I'm interested in.
+            </p>
+          </div>
+          <div>
+            <img
+              src="images/portfolio-2.png"
+              alt="example search engine website image"
+            />
+            <h3>Search Page</h3>
+            <p>
+              This project searches through a specific database to find
+              information that the user is trying to look up.
+            </p>
+          </div>
+          <div>
+            <img
+              src="images/portfolio-3.png"
+              alt="example travel website image "
+            />
+            <h3>Travel App</h3>
+            <p>
+              This project compares travel times based on different
+              transportation methods and tells you the best one.
+            </p>
+          </div>
+          <div>
+            <img src="images/portfolio-4.png" alt="example maps website" />
+            <h3>Map of Favourite Spots</h3>
+            <p>
+              This project uses mapping apis to plot points for my favourite
+              spots in the city for a do-it yourself walking tour.
+            </p>
+          </div>
+          <div>
+            <img
+              src="images/portfolio-5.png"
+              alt="example photo gallery website"
+            />
+            <h3>Photo Gallery</h3>
+            <p>
+              This project shows pictures from a recent trip to the viewer and
+              allows them to easily navigate through photos.
+            </p>
+          </div>
+          <div>
+            <img src="images/portfolio-6.png" alt="example calculator webapp" />
+            <h3>Calculator</h3>
+            <p>
+              Someone can enter in the numbers they want, and press the big blue
+              button to get the result.
+            </p>
+          </div>
+        </section>
+
+        <section class="contact">
+          <h2>Contact</h2>
+          <div>
+            <p>
+              If you're interested in chatting or want more information about
+              what I've been working on, I'd love to hear from you!
+            </p>
+          </div>
+          <div>
+            <p>Phone +1(111)555-1234</p>
+            <p>Email email@yoursite.com</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <footer class="main-footer">
+      <h2>Student name</h2>
+      <nav>Back to top</nav>
     </footer>
-</body>
+  </body>
 </html>

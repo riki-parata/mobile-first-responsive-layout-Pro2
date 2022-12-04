@@ -1,0 +1,44 @@
+/* Base Styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Navigation */
+
+.name {
+    margin: 0;
+}
+
+.main-header {
+    background-color: red;
+}
+
+/* Layout Containers */
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.main-footer {
+    text-align: center;
+    background-color: red;
+}
+
+/* Media Queries */
+
+@media (min-width: 769px) {
+    .container {
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+        /*background-color: aqua; */
+    }
+
+    .push {
+        min-height: calc(100vh - 89px);
+    }
+    
+}
