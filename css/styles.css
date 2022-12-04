@@ -4,16 +4,34 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0 auto;
+    font-family: "Roboto", Arial, Verdana;
+    font-weight: 400;
+    letter-spacing: .05em;
+}
+
 
 /* Navigation */
 
 .name {
-    margin: 0;
+    padding-top: 30px;
+    color: antiquewhite;
 }
 
 .main-header {
     background-color: red;
 }
+
+  .main-nav li, a, ul {
+    width: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+  }
 
 /* Layout Containers */
 
@@ -29,7 +47,7 @@
 
 /* Media Queries */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .container {
         width: 70%;
         max-width: 1000px;
@@ -40,5 +58,13 @@
     .push {
         min-height: calc(100vh - 89px);
     }
+
+        h1, .main-nav {
+        text-align: center;
+        display: block;
+      }
+      
+      
+      
     
 }
