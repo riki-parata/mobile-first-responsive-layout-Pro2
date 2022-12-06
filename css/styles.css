@@ -6,38 +6,58 @@
 
 body {
     margin: 0 auto;
+    max-width: 1024px;
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em;
+    
+}
+
+.profile-img {
+    width: 200px;
+}
+
+img {
+    width: 220px;
+}
+.push {
+    min-height: calc(100vh - 89px);
+    
 }
 
 
 /* Navigation */
 
-.name {
-    padding-top: 30px;
-    color: antiquewhite;
-}
 
-.main-header {
+
+#home {
     background-color: red;
 }
 
-  .main-nav li, a, ul {
-    width: 100%;
+.main-nav li, a, ul {
+    
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
     list-style: none;
     padding-left: 0;
-    margin-top: 30px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
   }
 
+  h1 {
+    text-align: center;
+    color: #000;
+    margin: 0;
+    padding-top: 10px;
+   
+  }
 /* Layout Containers */
 
 .container {
-    padding-left: 1em;
-    padding-right: 1em;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .main-footer {
@@ -52,17 +72,8 @@ body {
         width: 70%;
         max-width: 1000px;
         margin: 0 auto;
-        /*background-color: aqua; */
+        background-color: aqua;
     }
-
-    .push {
-        min-height: calc(100vh - 89px);
-    }
-
-        h1, .main-nav {
-        text-align: center;
-        display: block;
-      }
       
       
       
