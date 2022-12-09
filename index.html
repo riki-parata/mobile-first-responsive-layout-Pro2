@@ -23,7 +23,7 @@
     </nav>
     <main>
       <div class="container">
-        <section class="box profile">
+        <section class="box" id="profile">
           <img
             class="profile-img"
             src="images/responsive-layout-profile.png"
@@ -36,18 +36,20 @@
           </p>
         </section>
 
-        <section class="box 1">
+        <section class="box 1" id="portfolio">
           <h2>Portfolio</h2>
           <div>
             <img
               src="images/portfolio-1.png"
               alt="example website layout image"
             />
+
             <h3>Marketing Page</h3>
             <p>
               This project shows the front page of a marketing website meant for
               a specific business I'm interested in.
             </p>
+            
           </div>
         </section>
         <section class="box 2">
@@ -100,7 +102,7 @@
           </p>
         </section>
       </div>
-      <section class="contact">
+      <section class="box" id="contact">
         <h2>Contact</h2>
         <div>
           <p>
@@ -114,9 +116,11 @@
         </div>
       </section>
     </main>
-    <footer class="main-footer">
-      <h2>Student name</h2>
-      <a href="#home">Back to top</a>
+    <footer>
+      <ul class="main-footer">
+      <li><a href="#home">Student name</a></li>
+      <li><a href="#home">Back to top</a></li>
+      </ul>
     </footer>
   </body>
 </html>
