@@ -107,7 +107,7 @@ a {
     margin: 0 auto;
 }
 
-.box {
+.item {
     margin: 10px;
     min-height: 250px;
     text-align: center;
@@ -135,6 +135,18 @@ height: 0;
 /* Media Queries */
 
 @media (min-width: 768px) {
+
+  body {
+    margin: 0 auto;
+    max-width: 1024px;
+    font-family: "Roboto", Arial, Verdana;
+    font-weight: 400;
+    letter-spacing: .05em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
     .container {
         width: 100%;
         max-width: 1000px;
@@ -166,8 +178,18 @@ ul {
      
     }
 
+    .item {
+      margin: 10px;
+      min-height: 250px;
+      text-align: center;
+      letter-spacing: 1px;
+      padding-top: 5px;
+      display: flex;
+  }
+
     #profile {
       background-color: red;
+      flex: 1;
       width: 100%;
       margin: 0;
       text-decoration: none;
