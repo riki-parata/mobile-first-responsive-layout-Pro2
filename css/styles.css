@@ -67,7 +67,8 @@ a {
     text-align: center;
     color: #000;
     padding: 5px;
-   
+    padding-top: 30px;
+    margin-top: 0;
   }
 
   h2 {
@@ -206,8 +207,16 @@ p {
     justify-content: center;
 }
   .dp {
-    width: 500px;
+    width: 250px;
     display: flex;
+    margin: 20px;
+  }
+
+  .bio {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    padding: 0;
   }
 
     .item {
@@ -219,12 +228,14 @@ p {
       display: flex;
   }
 
+
     #profile {
-      background-color: red;
+      background-color: #FAFAFA;
       flex-direction:row-reverse;
       width: 100%;
       margin: 0;
       text-decoration: none;
+      align-items: center;
       color: #000;
       font-size: 14px;
       display: flex;
