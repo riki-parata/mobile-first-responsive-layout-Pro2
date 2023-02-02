@@ -18,6 +18,13 @@ body {
     
 }
 
+.dp {
+  width: 250px;
+  display: flex;
+
+  justify-content: center;
+}
+
 .profile-img {
     width: 200px;
     margin-top: 0 ;
@@ -151,6 +158,10 @@ a {
   font-size: 12px;
 }
 
+.full {
+  display: none;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px) {
@@ -170,7 +181,7 @@ a {
         width: 100%;
         max-width: 1000px;
         margin: 0 auto; 
-        background-color: aqua;
+        background-color: #FFFFFF;
         display: flex;
         flex-direction: column;
     }
@@ -221,23 +232,25 @@ p {
 
     .item {
       margin: 10px;
-      min-height: 250px;
-      text-align: center;
-      letter-spacing: 1px;
-      padding-top: 5px;
-      display: flex;
+      margin-bottom: 25px;
+      flex: 40%;
   }
 
 .examples {
   display: flex;
-  max-width: 1100px;
+  flex-wrap: wrap;
+}
+
+.eg {
+  width: 360px;
 }
 
     #profile {
-      background-color: red;
+      background-color: #FAFAFA;
       flex-direction:row-reverse;
       width: 100%;
       margin: 0;
+      padding: 20px;
       text-decoration: none;
       align-items: center;
       color: #000;
@@ -246,6 +259,42 @@ p {
       /* flex-shrink: 3; */
   }
   
-      
-    
+#contact {
+  margin-top: 0;
+}
+
+.contact{ 
+  margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-footer {
+height: 110px;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+
+}
+
+.con-text {
+  font-size: 16px;
+}
+
+.name { 
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.full { 
+  display: inline-block;
+  margin: 10px;
+}
+
+.small {
+  display: none;
+  padding: auto;
+}
 }
