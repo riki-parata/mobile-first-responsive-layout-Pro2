@@ -19,7 +19,7 @@ body {
 }
 
 .dp {
-  width: 250px;
+  width: 220px;
   display: flex;
 
   justify-content: center;
@@ -108,8 +108,17 @@ a {
     margin: 0;
     text-decoration: none;
     color: #000;
-    font-size: 14px;
+    font-size: 14px; /*  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
+
+ .bio {
+  
+  text-align: center;
+
+}
   #contact {
     background-color: #FAFAFA;
     margin-top: 25px;
@@ -142,8 +151,8 @@ a {
 .hr {
   box-sizing: content-box;
   height: 0;
+  margin-top: 40px;
   overflow: visible;
-  margin: 50px;
 }
 
 .main-footer {
@@ -189,6 +198,10 @@ a {
     .main-nav {
       display: flex;
       flex-direction: row;
+    }
+
+    #home {
+      padding-top: 40px;
     }
 li {
   background-color: #FAFAFA;
@@ -284,6 +297,7 @@ justify-content: space-between;
 
 .name { 
   margin-right: auto;
+  padding-top: 10px;
 }
 
 .full { 
@@ -330,4 +344,10 @@ justify-content: space-between;
 .eg {
   width: 320px;
 }
+
+
+.main-footer {
+  height: 50px;
+  
+  }
 } 
